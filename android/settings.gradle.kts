@@ -27,3 +27,9 @@ plugins {
     id("org.jetbrains.kotlin.android") version "2.3.20" apply false
 }
 
+include(":app")
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+}
+
